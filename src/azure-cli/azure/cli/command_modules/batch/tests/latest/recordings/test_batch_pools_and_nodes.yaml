@@ -17,8 +17,8 @@ interactions:
       ParameterSetName:
       - -n -g -l
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
-        azure-mgmt-batch/9.0.0 Azure-SDK-For-Python AZURECLI/2.12.0
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-batch/9.0.0 Azure-SDK-For-Python AZURECLI/2.15.1
       accept-language:
       - en-US
     method: PUT
@@ -32,11 +32,11 @@ interactions:
       content-length:
       - '0'
       date:
-      - Thu, 24 Sep 2020 03:57:53 GMT
+      - Tue, 24 Nov 2020 18:07:12 GMT
       expires:
       - '-1'
       location:
-      - https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Batch/batchAccounts/clibatch000002/operationResults/d152bd2c-d495-4bde-9e7a-7a3caa7ea576?api-version=2020-05-01
+      - https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Batch/batchAccounts/clibatch000002/operationResults/2c40185c-0e49-4ce7-be37-0ef7be6a1025?api-version=2020-05-01
       pragma:
       - no-cache
       server:
@@ -46,7 +46,7 @@ interactions:
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
-      - '1197'
+      - '1199'
     status:
       code: 202
       message: Accepted
@@ -64,28 +64,28 @@ interactions:
       ParameterSetName:
       - -n -g -l
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
-        azure-mgmt-batch/9.0.0 Azure-SDK-For-Python AZURECLI/2.12.0
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-batch/9.0.0 Azure-SDK-For-Python AZURECLI/2.15.1
     method: GET
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Batch/batchAccounts/clibatch000002/operationResults/d152bd2c-d495-4bde-9e7a-7a3caa7ea576?api-version=2020-05-01
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Batch/batchAccounts/clibatch000002/operationResults/2c40185c-0e49-4ce7-be37-0ef7be6a1025?api-version=2020-05-01
   response:
     body:
-      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Batch/batchAccounts/clibatch000002","name":"clibatch000002","type":"Microsoft.Batch/batchAccounts","location":"westus","properties":{"accountEndpoint":"clibatch000002.westus.batch.azure.com","provisioningState":"Succeeded","dedicatedCoreQuota":700,"dedicatedCoreQuotaPerVMFamily":[{"name":"standardAv2Family","coreQuota":100},{"name":"standardDv2Family","coreQuota":100},{"name":"standardDv3Family","coreQuota":100},{"name":"standardEv3Family","coreQuota":50},{"name":"standardDSv2Family","coreQuota":100},{"name":"standardDSv3Family","coreQuota":100},{"name":"standardESv3Family","coreQuota":50},{"name":"standardFFamily","coreQuota":50},{"name":"standardFSFamily","coreQuota":50},{"name":"standardA0_A7Family","coreQuota":0},{"name":"standardA8_A11Family","coreQuota":0},{"name":"standardDFamily","coreQuota":0},{"name":"standardGFamily","coreQuota":0},{"name":"basicAFamily","coreQuota":0},{"name":"standardNVFamily","coreQuota":0},{"name":"standardNVPromoFamily","coreQuota":0},{"name":"standardNCFamily","coreQuota":0},{"name":"standardNCPromoFamily","coreQuota":0},{"name":"standardHFamily","coreQuota":0},{"name":"standardHPromoFamily","coreQuota":0},{"name":"standardMSFamily","coreQuota":0},{"name":"standardDSFamily","coreQuota":0},{"name":"standardGSFamily","coreQuota":0},{"name":"standardLSFamily","coreQuota":0},{"name":"standardLSv2Family","coreQuota":0},{"name":"standardNCSv2Family","coreQuota":0},{"name":"standardNDSFamily","coreQuota":0},{"name":"standardNCSv3Family","coreQuota":0},{"name":"standardFSv2Family","coreQuota":0},{"name":"standardHBSFamily","coreQuota":0},{"name":"standardHCSFamily","coreQuota":0},{"name":"standardNVSv3Family","coreQuota":0},{"name":"standardHBrsv2Family","coreQuota":0},{"name":"standardDAv4Family","coreQuota":0},{"name":"standardDASv4Family","coreQuota":0},{"name":"standardEAv4Family","coreQuota":0},{"name":"standardEASv4Family","coreQuota":0},{"name":"standardDDv4Family","coreQuota":0},{"name":"standardDDSv4Family","coreQuota":0},{"name":"standardEDv4Family","coreQuota":0},{"name":"standardEDSv4Family","coreQuota":0},{"name":"standardMSv2Family","coreQuota":0},{"name":"standardEIv3Family","coreQuota":0}],"dedicatedCoreQuotaPerVMFamilyEnforced":false,"lowPriorityCoreQuota":500,"poolQuota":100,"activeJobAndJobScheduleQuota":300,"poolAllocationMode":"BatchService","publicNetworkAccess":"Enabled","encryption":{"keySource":"Microsoft.Batch"}},"identity":{"type":"None"}}'
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Batch/batchAccounts/clibatch000002","name":"clibatch000002","type":"Microsoft.Batch/batchAccounts","location":"westus","properties":{"accountEndpoint":"clibatch000002.westus.batch.azure.com","provisioningState":"Succeeded","dedicatedCoreQuota":700,"dedicatedCoreQuotaPerVMFamily":[{"name":"standardAv2Family","coreQuota":100},{"name":"standardDv2Family","coreQuota":100},{"name":"standardDv3Family","coreQuota":100},{"name":"standardEv3Family","coreQuota":50},{"name":"standardDSv2Family","coreQuota":100},{"name":"standardDSv3Family","coreQuota":100},{"name":"standardESv3Family","coreQuota":50},{"name":"standardFFamily","coreQuota":50},{"name":"standardFSFamily","coreQuota":50},{"name":"standardA0_A7Family","coreQuota":0},{"name":"standardA8_A11Family","coreQuota":0},{"name":"standardDFamily","coreQuota":0},{"name":"standardGFamily","coreQuota":0},{"name":"basicAFamily","coreQuota":0},{"name":"standardNVFamily","coreQuota":0},{"name":"standardNVPromoFamily","coreQuota":0},{"name":"standardNCFamily","coreQuota":0},{"name":"standardNCPromoFamily","coreQuota":0},{"name":"standardHFamily","coreQuota":0},{"name":"standardHPromoFamily","coreQuota":0},{"name":"standardMSFamily","coreQuota":0},{"name":"standardDSFamily","coreQuota":0},{"name":"standardGSFamily","coreQuota":0},{"name":"standardLSFamily","coreQuota":0},{"name":"standardLSv2Family","coreQuota":0},{"name":"standardNCSv2Family","coreQuota":0},{"name":"standardNDSFamily","coreQuota":0},{"name":"standardNCSv3Family","coreQuota":0},{"name":"standardFSv2Family","coreQuota":0},{"name":"standardHBSFamily","coreQuota":0},{"name":"standardHCSFamily","coreQuota":0},{"name":"standardNVSv3Family","coreQuota":0},{"name":"standardHBrsv2Family","coreQuota":0},{"name":"standardDAv4Family","coreQuota":0},{"name":"standardDASv4Family","coreQuota":0},{"name":"standardEAv4Family","coreQuota":0},{"name":"standardEASv4Family","coreQuota":0},{"name":"standardDDv4Family","coreQuota":0},{"name":"standardDDSv4Family","coreQuota":0},{"name":"standardEDv4Family","coreQuota":0},{"name":"standardEDSv4Family","coreQuota":0},{"name":"standardMSv2Family","coreQuota":0},{"name":"standardEIv3Family","coreQuota":0},{"name":"standardNVSv4Family","coreQuota":0},{"name":"standardXEISv4Family","coreQuota":0}],"dedicatedCoreQuotaPerVMFamilyEnforced":false,"lowPriorityCoreQuota":500,"poolQuota":100,"activeJobAndJobScheduleQuota":300,"poolAllocationMode":"BatchService","publicNetworkAccess":"Enabled","encryption":{"keySource":"Microsoft.Batch"}},"identity":{"type":"None"}}'
     headers:
       cache-control:
       - no-cache
       content-length:
-      - '2634'
+      - '2725'
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 24 Sep 2020 03:58:10 GMT
+      - Tue, 24 Nov 2020 18:07:27 GMT
       etag:
-      - '"0x8D8603E0DB408CB"'
+      - '"0x8D890A3CE28FD32"'
       expires:
       - '-1'
       last-modified:
-      - Thu, 24 Sep 2020 03:58:10 GMT
+      - Tue, 24 Nov 2020 18:07:28 GMT
       pragma:
       - no-cache
       server:
@@ -117,15 +117,15 @@ interactions:
       ParameterSetName:
       - -n -g --query -o
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
-        azure-mgmt-batch/9.0.0 Azure-SDK-For-Python AZURECLI/2.12.0
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-batch/9.0.0 Azure-SDK-For-Python AZURECLI/2.15.1
       accept-language:
       - en-US
     method: POST
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Batch/batchAccounts/clibatch000002/listKeys?api-version=2020-05-01
   response:
     body:
-      string: '{"accountName":"clibatch000002","primary":"nwFpfVW/Jgo5nZ71lGJPcYfSdmMPoJfLi6z/1/abCPdf//Hw6JLWicFy3cI5gaydEVfs59luXR3akrcFQIQBMw==","secondary":"jHtjSjMGwcskU5vamWSnYDCuJPcEcGet6PPviNByW4jOeg+iDU337D/C1di8vjf36wZUnnaSxREUFNwmwCRAGg=="}'
+      string: '{"accountName":"clibatch000002","primary":"pO9YVmvu/AeTWjmXByO9rBZBSGXppqd5NxvgTs2UvHy1xd5eF/D/ihaiqEDBARXwYGV4BWgaTkP23W4NkGBWuA==","secondary":"NTaey0ulgK+R9YbdSlrrWjiZn3xj0GxvHxmP/Dy/LlV2CSfSgObv25t2255mVrkbPp34ASYUBqlnV/tPtVJj1Q=="}'
     headers:
       cache-control:
       - no-cache
@@ -134,7 +134,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 24 Sep 2020 03:58:11 GMT
+      - Tue, 24 Nov 2020 18:07:29 GMT
       expires:
       - '-1'
       pragma:
@@ -168,30 +168,30 @@ interactions:
       ParameterSetName:
       - -n -g
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
-        azure-mgmt-batch/9.0.0 Azure-SDK-For-Python AZURECLI/2.12.0
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-batch/9.0.0 Azure-SDK-For-Python AZURECLI/2.15.1
       accept-language:
       - en-US
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Batch/batchAccounts/clibatch000002?api-version=2020-05-01
   response:
     body:
-      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Batch/batchAccounts/clibatch000002","name":"clibatch000002","type":"Microsoft.Batch/batchAccounts","location":"westus","properties":{"accountEndpoint":"clibatch000002.westus.batch.azure.com","provisioningState":"Succeeded","dedicatedCoreQuota":700,"dedicatedCoreQuotaPerVMFamily":[{"name":"standardAv2Family","coreQuota":100},{"name":"standardDv2Family","coreQuota":100},{"name":"standardDv3Family","coreQuota":100},{"name":"standardEv3Family","coreQuota":50},{"name":"standardDSv2Family","coreQuota":100},{"name":"standardDSv3Family","coreQuota":100},{"name":"standardESv3Family","coreQuota":50},{"name":"standardFFamily","coreQuota":50},{"name":"standardFSFamily","coreQuota":50},{"name":"standardA0_A7Family","coreQuota":0},{"name":"standardA8_A11Family","coreQuota":0},{"name":"standardDFamily","coreQuota":0},{"name":"standardGFamily","coreQuota":0},{"name":"basicAFamily","coreQuota":0},{"name":"standardNVFamily","coreQuota":0},{"name":"standardNVPromoFamily","coreQuota":0},{"name":"standardNCFamily","coreQuota":0},{"name":"standardNCPromoFamily","coreQuota":0},{"name":"standardHFamily","coreQuota":0},{"name":"standardHPromoFamily","coreQuota":0},{"name":"standardMSFamily","coreQuota":0},{"name":"standardDSFamily","coreQuota":0},{"name":"standardGSFamily","coreQuota":0},{"name":"standardLSFamily","coreQuota":0},{"name":"standardLSv2Family","coreQuota":0},{"name":"standardNCSv2Family","coreQuota":0},{"name":"standardNDSFamily","coreQuota":0},{"name":"standardNCSv3Family","coreQuota":0},{"name":"standardFSv2Family","coreQuota":0},{"name":"standardHBSFamily","coreQuota":0},{"name":"standardHCSFamily","coreQuota":0},{"name":"standardNVSv3Family","coreQuota":0},{"name":"standardHBrsv2Family","coreQuota":0},{"name":"standardDAv4Family","coreQuota":0},{"name":"standardDASv4Family","coreQuota":0},{"name":"standardEAv4Family","coreQuota":0},{"name":"standardEASv4Family","coreQuota":0},{"name":"standardDDv4Family","coreQuota":0},{"name":"standardDDSv4Family","coreQuota":0},{"name":"standardEDv4Family","coreQuota":0},{"name":"standardEDSv4Family","coreQuota":0},{"name":"standardMSv2Family","coreQuota":0},{"name":"standardEIv3Family","coreQuota":0}],"dedicatedCoreQuotaPerVMFamilyEnforced":false,"lowPriorityCoreQuota":500,"poolQuota":100,"activeJobAndJobScheduleQuota":300,"poolAllocationMode":"BatchService","publicNetworkAccess":"Enabled","encryption":{"keySource":"Microsoft.Batch"}},"identity":{"type":"None"}}'
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Batch/batchAccounts/clibatch000002","name":"clibatch000002","type":"Microsoft.Batch/batchAccounts","location":"westus","properties":{"accountEndpoint":"clibatch000002.westus.batch.azure.com","provisioningState":"Succeeded","dedicatedCoreQuota":700,"dedicatedCoreQuotaPerVMFamily":[{"name":"standardAv2Family","coreQuota":100},{"name":"standardDv2Family","coreQuota":100},{"name":"standardDv3Family","coreQuota":100},{"name":"standardEv3Family","coreQuota":50},{"name":"standardDSv2Family","coreQuota":100},{"name":"standardDSv3Family","coreQuota":100},{"name":"standardESv3Family","coreQuota":50},{"name":"standardFFamily","coreQuota":50},{"name":"standardFSFamily","coreQuota":50},{"name":"standardA0_A7Family","coreQuota":0},{"name":"standardA8_A11Family","coreQuota":0},{"name":"standardDFamily","coreQuota":0},{"name":"standardGFamily","coreQuota":0},{"name":"basicAFamily","coreQuota":0},{"name":"standardNVFamily","coreQuota":0},{"name":"standardNVPromoFamily","coreQuota":0},{"name":"standardNCFamily","coreQuota":0},{"name":"standardNCPromoFamily","coreQuota":0},{"name":"standardHFamily","coreQuota":0},{"name":"standardHPromoFamily","coreQuota":0},{"name":"standardMSFamily","coreQuota":0},{"name":"standardDSFamily","coreQuota":0},{"name":"standardGSFamily","coreQuota":0},{"name":"standardLSFamily","coreQuota":0},{"name":"standardLSv2Family","coreQuota":0},{"name":"standardNCSv2Family","coreQuota":0},{"name":"standardNDSFamily","coreQuota":0},{"name":"standardNCSv3Family","coreQuota":0},{"name":"standardFSv2Family","coreQuota":0},{"name":"standardHBSFamily","coreQuota":0},{"name":"standardHCSFamily","coreQuota":0},{"name":"standardNVSv3Family","coreQuota":0},{"name":"standardHBrsv2Family","coreQuota":0},{"name":"standardDAv4Family","coreQuota":0},{"name":"standardDASv4Family","coreQuota":0},{"name":"standardEAv4Family","coreQuota":0},{"name":"standardEASv4Family","coreQuota":0},{"name":"standardDDv4Family","coreQuota":0},{"name":"standardDDSv4Family","coreQuota":0},{"name":"standardEDv4Family","coreQuota":0},{"name":"standardEDSv4Family","coreQuota":0},{"name":"standardMSv2Family","coreQuota":0},{"name":"standardEIv3Family","coreQuota":0},{"name":"standardNVSv4Family","coreQuota":0},{"name":"standardXEISv4Family","coreQuota":0}],"dedicatedCoreQuotaPerVMFamilyEnforced":false,"lowPriorityCoreQuota":500,"poolQuota":100,"activeJobAndJobScheduleQuota":300,"poolAllocationMode":"BatchService","publicNetworkAccess":"Enabled","encryption":{"keySource":"Microsoft.Batch"}},"identity":{"type":"None"}}'
     headers:
       cache-control:
       - no-cache
       content-length:
-      - '2634'
+      - '2725'
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 24 Sep 2020 03:58:12 GMT
+      - Tue, 24 Nov 2020 18:07:29 GMT
       etag:
-      - '"0x8D8603E05FBE09B"'
+      - '"0x8D890A3C7019B63"'
       expires:
       - '-1'
       last-modified:
-      - Thu, 24 Sep 2020 03:57:57 GMT
+      - Tue, 24 Nov 2020 18:07:16 GMT
       pragma:
       - no-cache
       server:
@@ -222,12 +222,10 @@ interactions:
       Content-Type:
       - application/json; odata=minimalmetadata; charset=utf-8
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:12 GMT
       return-client-request-id:
       - 'false'
     method: POST
@@ -237,19 +235,19 @@ interactions:
       string: ''
     headers:
       dataserviceid:
-      - https://clibatchngzvby23hwklmnfn.westus.batch.azure.com/pools/azure-cli-test-paas
+      - https://clibatchjccxmyjro645cibx.westus.batch.azure.com/pools/azure-cli-test-paas
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:13 GMT
+      - Tue, 24 Nov 2020 18:07:30 GMT
       etag:
-      - '0x8D8603E0FC41CB1'
+      - '0x8D890A3CF80D417'
       last-modified:
-      - Thu, 24 Sep 2020 03:58:14 GMT
+      - Tue, 24 Nov 2020 18:07:30 GMT
       location:
       - https://clibatch000002.westus.batch.azure.com/pools/azure-cli-test-paas
       request-id:
-      - ad6ddd88-fd4c-4fa4-9428-13ea805e5c46
+      - 70f75a49-c162-45bd-9c1a-42c65f46da26
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -277,12 +275,10 @@ interactions:
       Content-Type:
       - application/json; odata=minimalmetadata; charset=utf-8
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:14 GMT
       return-client-request-id:
       - 'false'
     method: POST
@@ -292,19 +288,19 @@ interactions:
       string: ''
     headers:
       dataserviceid:
-      - https://clibatchngzvby23hwklmnfn.westus.batch.azure.com/pools/azure-cli-test-iaas
+      - https://clibatchjccxmyjro645cibx.westus.batch.azure.com/pools/azure-cli-test-iaas
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:15 GMT
+      - Tue, 24 Nov 2020 18:07:31 GMT
       etag:
-      - '0x8D8603E10952C40'
+      - '0x8D890A3D016116E'
       last-modified:
-      - Thu, 24 Sep 2020 03:58:15 GMT
+      - Tue, 24 Nov 2020 18:07:31 GMT
       location:
       - https://clibatch000002.westus.batch.azure.com/pools/azure-cli-test-iaas
       request-id:
-      - 972f6e5c-deb2-4526-9c98-d3d5c9805ec9
+      - be9fa075-898b-43a9-af00-44f87be96484
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -334,12 +330,10 @@ interactions:
       Content-Type:
       - application/json; odata=minimalmetadata; charset=utf-8
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:16 GMT
       return-client-request-id:
       - 'false'
     method: POST
@@ -349,19 +343,19 @@ interactions:
       string: ''
     headers:
       dataserviceid:
-      - https://clibatchngzvby23hwklmnfn.westus.batch.azure.com/pools/azure-cli-test-json
+      - https://clibatchjccxmyjro645cibx.westus.batch.azure.com/pools/azure-cli-test-json
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:16 GMT
+      - Tue, 24 Nov 2020 18:07:32 GMT
       etag:
-      - '0x8D8603E117B71F5'
+      - '0x8D890A3D07EE767'
       last-modified:
-      - Thu, 24 Sep 2020 03:58:17 GMT
+      - Tue, 24 Nov 2020 18:07:32 GMT
       location:
       - https://clibatch000002.westus.batch.azure.com/pools/azure-cli-test-json
       request-id:
-      - a1fca517-f12d-4943-9027-48f0b931d8cd
+      - cd878cb5-9ea8-4155-8525-fb6cef379e2a
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -383,19 +377,17 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:17 GMT
       return-client-request-id:
       - 'false'
     method: GET
     uri: https://clibatch000002.westus.batch.azure.com/pools/azure-cli-test-json?api-version=2020-03-01.11.0&timeout=30
   response:
     body:
-      string: "{\r\n  \"odata.metadata\":\"https://clibatch000002.westus.batch.azure.com/$metadata#pools/@Element\",\"id\":\"azure-cli-test-json\",\"url\":\"https://clibatch000002.westus.batch.azure.com/pools/azure-cli-test-json\",\"eTag\":\"0x8D8603E117B71F5\",\"lastModified\":\"2020-09-24T03:58:17.0466805Z\",\"creationTime\":\"2020-09-24T03:58:17.0466805Z\",\"state\":\"active\",\"stateTransitionTime\":\"2020-09-24T03:58:17.0466805Z\",\"allocationState\":\"resizing\",\"allocationStateTransitionTime\":\"2020-09-24T03:58:17.0466805Z\",\"vmSize\":\"small\",\"resizeTimeout\":\"PT15M\",\"currentDedicatedNodes\":0,\"targetDedicatedNodes\":0,\"currentLowPriorityNodes\":0,\"targetLowPriorityNodes\":2,\"enableAutoScale\":false,\"enableInterNodeCommunication\":false,\"startTask\":{\r\n
+      string: "{\r\n  \"odata.metadata\":\"https://clibatch000002.westus.batch.azure.com/$metadata#pools/@Element\",\"id\":\"azure-cli-test-json\",\"url\":\"https://clibatch000002.westus.batch.azure.com/pools/azure-cli-test-json\",\"eTag\":\"0x8D890A3D07EE767\",\"lastModified\":\"2020-11-24T18:07:32.4971879Z\",\"creationTime\":\"2020-11-24T18:07:32.4971879Z\",\"state\":\"active\",\"stateTransitionTime\":\"2020-11-24T18:07:32.4971879Z\",\"allocationState\":\"resizing\",\"allocationStateTransitionTime\":\"2020-11-24T18:07:32.4971879Z\",\"vmSize\":\"small\",\"resizeTimeout\":\"PT15M\",\"currentDedicatedNodes\":0,\"targetDedicatedNodes\":0,\"currentLowPriorityNodes\":0,\"targetLowPriorityNodes\":2,\"enableAutoScale\":false,\"enableInterNodeCommunication\":false,\"startTask\":{\r\n
         \   \"commandLine\":\"cmd /c echo test\",\"userIdentity\":{\r\n      \"username\":\"cliTestUser\"\r\n
         \   },\"maxTaskRetryCount\":0,\"waitForSuccess\":true\r\n  },\"userAccounts\":[\r\n
         \   {\r\n      \"name\":\"cliTestUser\",\"elevationLevel\":\"admin\",\"windowsUserConfiguration\":{\r\n
@@ -408,13 +400,13 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:17 GMT
+      - Tue, 24 Nov 2020 18:07:33 GMT
       etag:
-      - '0x8D8603E117B71F5'
+      - '0x8D890A3D07EE767'
       last-modified:
-      - Thu, 24 Sep 2020 03:58:17 GMT
+      - Tue, 24 Nov 2020 18:07:32 GMT
       request-id:
-      - e007a04a-9c7b-48c4-8690-1bc3f9a2a387
+      - 6761ffc0-2c9b-43b9-97d7-61637fc0ee89
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -436,12 +428,10 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:18 GMT
       return-client-request-id:
       - 'false'
     method: GET
@@ -449,18 +439,18 @@ interactions:
   response:
     body:
       string: "{\r\n  \"odata.metadata\":\"https://clibatch000002.westus.batch.azure.com/$metadata#pools\",\"value\":[\r\n
-        \   {\r\n      \"id\":\"azure-cli-test-iaas\",\"url\":\"https://clibatch000002.westus.batch.azure.com/pools/azure-cli-test-iaas\",\"eTag\":\"0x8D8603E10952C40\",\"lastModified\":\"2020-09-24T03:58:15.537568Z\",\"creationTime\":\"2020-09-24T03:58:15.537568Z\",\"state\":\"active\",\"stateTransitionTime\":\"2020-09-24T03:58:15.537568Z\",\"allocationState\":\"steady\",\"allocationStateTransitionTime\":\"2020-09-24T03:58:17.5507121Z\",\"vmSize\":\"standard_a1\",\"resizeTimeout\":\"PT15M\",\"currentDedicatedNodes\":0,\"targetDedicatedNodes\":0,\"currentLowPriorityNodes\":0,\"targetLowPriorityNodes\":0,\"enableAutoScale\":false,\"enableInterNodeCommunication\":false,\"maxTasksPerNode\":1,\"taskSchedulingPolicy\":{\r\n
+        \   {\r\n      \"id\":\"azure-cli-test-iaas\",\"url\":\"https://clibatch000002.westus.batch.azure.com/pools/azure-cli-test-iaas\",\"eTag\":\"0x8D890A3D016116E\",\"lastModified\":\"2020-11-24T18:07:31.8101358Z\",\"creationTime\":\"2020-11-24T18:07:31.8101358Z\",\"state\":\"active\",\"stateTransitionTime\":\"2020-11-24T18:07:31.8101358Z\",\"allocationState\":\"steady\",\"allocationStateTransitionTime\":\"2020-11-24T18:07:34.3243261Z\",\"vmSize\":\"standard_a1\",\"resizeTimeout\":\"PT15M\",\"currentDedicatedNodes\":0,\"targetDedicatedNodes\":0,\"currentLowPriorityNodes\":0,\"targetLowPriorityNodes\":0,\"enableAutoScale\":false,\"enableInterNodeCommunication\":false,\"maxTasksPerNode\":1,\"taskSchedulingPolicy\":{\r\n
         \       \"nodeFillType\":\"Spread\"\r\n      },\"virtualMachineConfiguration\":{\r\n
         \       \"imageReference\":{\r\n          \"publisher\":\"Canonical\",\"offer\":\"UbuntuServer\",\"sku\":\"16.04.0-LTS\",\"version\":\"latest\"\r\n
         \       },\"nodeAgentSKUId\":\"batch.node.ubuntu 16.04\"\r\n      }\r\n    },{\r\n
-        \     \"id\":\"azure-cli-test-json\",\"url\":\"https://clibatch000002.westus.batch.azure.com/pools/azure-cli-test-json\",\"eTag\":\"0x8D8603E117B71F5\",\"lastModified\":\"2020-09-24T03:58:17.0466805Z\",\"creationTime\":\"2020-09-24T03:58:17.0466805Z\",\"state\":\"active\",\"stateTransitionTime\":\"2020-09-24T03:58:17.0466805Z\",\"allocationState\":\"resizing\",\"allocationStateTransitionTime\":\"2020-09-24T03:58:17.0466805Z\",\"vmSize\":\"small\",\"resizeTimeout\":\"PT15M\",\"currentDedicatedNodes\":0,\"targetDedicatedNodes\":0,\"currentLowPriorityNodes\":0,\"targetLowPriorityNodes\":2,\"enableAutoScale\":false,\"enableInterNodeCommunication\":false,\"startTask\":{\r\n
+        \     \"id\":\"azure-cli-test-json\",\"url\":\"https://clibatch000002.westus.batch.azure.com/pools/azure-cli-test-json\",\"eTag\":\"0x8D890A3D07EE767\",\"lastModified\":\"2020-11-24T18:07:32.4971879Z\",\"creationTime\":\"2020-11-24T18:07:32.4971879Z\",\"state\":\"active\",\"stateTransitionTime\":\"2020-11-24T18:07:32.4971879Z\",\"allocationState\":\"resizing\",\"allocationStateTransitionTime\":\"2020-11-24T18:07:32.4971879Z\",\"vmSize\":\"small\",\"resizeTimeout\":\"PT15M\",\"currentDedicatedNodes\":0,\"targetDedicatedNodes\":0,\"currentLowPriorityNodes\":0,\"targetLowPriorityNodes\":2,\"enableAutoScale\":false,\"enableInterNodeCommunication\":false,\"startTask\":{\r\n
         \       \"commandLine\":\"cmd /c echo test\",\"userIdentity\":{\r\n          \"username\":\"cliTestUser\"\r\n
         \       },\"maxTaskRetryCount\":0,\"waitForSuccess\":true\r\n      },\"userAccounts\":[\r\n
         \       {\r\n          \"name\":\"cliTestUser\",\"elevationLevel\":\"admin\",\"windowsUserConfiguration\":{\r\n
         \           \"loginMode\":\"interactive\"\r\n          }\r\n        }\r\n
         \     ],\"maxTasksPerNode\":1,\"taskSchedulingPolicy\":{\r\n        \"nodeFillType\":\"Spread\"\r\n
         \     },\"cloudServiceConfiguration\":{\r\n        \"osFamily\":\"4\",\"osVersion\":\"*\"\r\n
-        \     }\r\n    },{\r\n      \"id\":\"azure-cli-test-paas\",\"url\":\"https://clibatch000002.westus.batch.azure.com/pools/azure-cli-test-paas\",\"eTag\":\"0x8D8603E0FC41CB1\",\"lastModified\":\"2020-09-24T03:58:14.1674673Z\",\"creationTime\":\"2020-09-24T03:58:14.1674673Z\",\"state\":\"active\",\"stateTransitionTime\":\"2020-09-24T03:58:14.1674673Z\",\"allocationState\":\"steady\",\"allocationStateTransitionTime\":\"2020-09-24T03:58:16.1826139Z\",\"vmSize\":\"small\",\"resizeTimeout\":\"PT15M\",\"currentDedicatedNodes\":0,\"targetDedicatedNodes\":0,\"currentLowPriorityNodes\":0,\"targetLowPriorityNodes\":0,\"enableAutoScale\":false,\"enableInterNodeCommunication\":false,\"maxTasksPerNode\":1,\"taskSchedulingPolicy\":{\r\n
+        \     }\r\n    },{\r\n      \"id\":\"azure-cli-test-paas\",\"url\":\"https://clibatch000002.westus.batch.azure.com/pools/azure-cli-test-paas\",\"eTag\":\"0x8D890A3CF80D417\",\"lastModified\":\"2020-11-24T18:07:30.8320791Z\",\"creationTime\":\"2020-11-24T18:07:30.8320791Z\",\"state\":\"active\",\"stateTransitionTime\":\"2020-11-24T18:07:30.8320791Z\",\"allocationState\":\"steady\",\"allocationStateTransitionTime\":\"2020-11-24T18:07:32.4241823Z\",\"vmSize\":\"small\",\"resizeTimeout\":\"PT15M\",\"currentDedicatedNodes\":0,\"targetDedicatedNodes\":0,\"currentLowPriorityNodes\":0,\"targetLowPriorityNodes\":0,\"enableAutoScale\":false,\"enableInterNodeCommunication\":false,\"maxTasksPerNode\":1,\"taskSchedulingPolicy\":{\r\n
         \       \"nodeFillType\":\"Spread\"\r\n      },\"cloudServiceConfiguration\":{\r\n
         \       \"osFamily\":\"4\",\"osVersion\":\"*\"\r\n      }\r\n    }\r\n  ]\r\n}"
     headers:
@@ -469,9 +459,9 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:19 GMT
+      - Tue, 24 Nov 2020 18:07:34 GMT
       request-id:
-      - 1841c4b5-83f0-419e-b659-220fd6d81c4c
+      - afeed9d6-e355-4d39-ab16-60b8d3b61957
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -493,12 +483,10 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:19 GMT
       return-client-request-id:
       - 'false'
     method: GET
@@ -506,7 +494,7 @@ interactions:
   response:
     body:
       string: "{\r\n  \"odata.metadata\":\"https://clibatch000002.westus.batch.azure.com/$metadata#pools\",\"value\":[\r\n
-        \   {\r\n      \"id\":\"azure-cli-test-paas\",\"url\":\"https://clibatch000002.westus.batch.azure.com/pools/azure-cli-test-paas\",\"eTag\":\"0x8D8603E0FC41CB1\",\"lastModified\":\"2020-09-24T03:58:14.1674673Z\",\"creationTime\":\"2020-09-24T03:58:14.1674673Z\",\"state\":\"active\",\"stateTransitionTime\":\"2020-09-24T03:58:14.1674673Z\",\"allocationState\":\"steady\",\"allocationStateTransitionTime\":\"2020-09-24T03:58:16.1826139Z\",\"vmSize\":\"small\",\"resizeTimeout\":\"PT15M\",\"currentDedicatedNodes\":0,\"targetDedicatedNodes\":0,\"currentLowPriorityNodes\":0,\"targetLowPriorityNodes\":0,\"enableAutoScale\":false,\"enableInterNodeCommunication\":false,\"maxTasksPerNode\":1,\"taskSchedulingPolicy\":{\r\n
+        \   {\r\n      \"id\":\"azure-cli-test-paas\",\"url\":\"https://clibatch000002.westus.batch.azure.com/pools/azure-cli-test-paas\",\"eTag\":\"0x8D890A3CF80D417\",\"lastModified\":\"2020-11-24T18:07:30.8320791Z\",\"creationTime\":\"2020-11-24T18:07:30.8320791Z\",\"state\":\"active\",\"stateTransitionTime\":\"2020-11-24T18:07:30.8320791Z\",\"allocationState\":\"steady\",\"allocationStateTransitionTime\":\"2020-11-24T18:07:32.4241823Z\",\"vmSize\":\"small\",\"resizeTimeout\":\"PT15M\",\"currentDedicatedNodes\":0,\"targetDedicatedNodes\":0,\"currentLowPriorityNodes\":0,\"targetLowPriorityNodes\":0,\"enableAutoScale\":false,\"enableInterNodeCommunication\":false,\"maxTasksPerNode\":1,\"taskSchedulingPolicy\":{\r\n
         \       \"nodeFillType\":\"Spread\"\r\n      },\"cloudServiceConfiguration\":{\r\n
         \       \"osFamily\":\"4\",\"osVersion\":\"*\"\r\n      }\r\n    }\r\n  ]\r\n}"
     headers:
@@ -515,9 +503,9 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:19 GMT
+      - Tue, 24 Nov 2020 18:07:35 GMT
       request-id:
-      - ee0516fc-2821-4a04-93b0-48a916cc4342
+      - ad76211f-1dc6-4727-a86d-8a49bdefc0c2
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -543,12 +531,10 @@ interactions:
       Content-Type:
       - application/json; odata=minimalmetadata; charset=utf-8
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:20 GMT
       return-client-request-id:
       - 'false'
     method: POST
@@ -558,17 +544,17 @@ interactions:
       string: ''
     headers:
       dataserviceid:
-      - https://clibatchngzvby23hwklmnfn.westus.batch.azure.com/pools/azure-cli-test-paas/resize
+      - https://clibatchjccxmyjro645cibx.westus.batch.azure.com/pools/azure-cli-test-paas/resize
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:21 GMT
+      - Tue, 24 Nov 2020 18:07:36 GMT
       etag:
-      - '0x8D8603E143B47B7'
+      - '0x8D890A3D2FB3E1C'
       last-modified:
-      - Thu, 24 Sep 2020 03:58:21 GMT
+      - Tue, 24 Nov 2020 18:07:36 GMT
       request-id:
-      - f85881f7-a031-4324-9406-3db250125559
+      - cd982aba-76a7-4605-95ca-b6788c503317
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -590,12 +576,10 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:21 GMT
       return-client-request-id:
       - 'false'
     method: GET
@@ -609,13 +593,13 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:22 GMT
+      - Tue, 24 Nov 2020 18:07:37 GMT
       etag:
-      - '0x8D8603E143B47B7'
+      - '0x8D890A3D2FB3E1C'
       last-modified:
-      - Thu, 24 Sep 2020 03:58:21 GMT
+      - Tue, 24 Nov 2020 18:07:36 GMT
       request-id:
-      - 67949427-62e8-4d4c-ac33-576ecb5ab580
+      - d2f0aee7-fe9d-4364-8074-eaf98acb8d4e
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -639,12 +623,10 @@ interactions:
       Content-Length:
       - '0'
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:22 GMT
       return-client-request-id:
       - 'false'
     method: POST
@@ -654,17 +636,17 @@ interactions:
       string: ''
     headers:
       dataserviceid:
-      - https://clibatchngzvby23hwklmnfn.westus.batch.azure.com/pools/azure-cli-test-paas/stopresize
+      - https://clibatchjccxmyjro645cibx.westus.batch.azure.com/pools/azure-cli-test-paas/stopresize
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:23 GMT
+      - Tue, 24 Nov 2020 18:07:37 GMT
       etag:
-      - '0x8D8603E143B47B7'
+      - '0x8D890A3D2FB3E1C'
       last-modified:
-      - Thu, 24 Sep 2020 03:58:21 GMT
+      - Tue, 24 Nov 2020 18:07:36 GMT
       request-id:
-      - 5952355e-5575-4cd0-9899-e08c8c264dcc
+      - 50124710-df39-4834-9401-4ec1dd25b1c4
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -690,12 +672,10 @@ interactions:
       Content-Type:
       - application/json; odata=minimalmetadata; charset=utf-8
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:24 GMT
       return-client-request-id:
       - 'false'
     method: POST
@@ -705,17 +685,17 @@ interactions:
       string: ''
     headers:
       dataserviceid:
-      - https://clibatchngzvby23hwklmnfn.westus.batch.azure.com/pools/azure-cli-test-iaas/enableautoscale
+      - https://clibatchjccxmyjro645cibx.westus.batch.azure.com/pools/azure-cli-test-iaas/enableautoscale
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:24 GMT
+      - Tue, 24 Nov 2020 18:07:37 GMT
       etag:
-      - '0x8D8603E16445445'
+      - '0x8D890A3D400A527'
       last-modified:
-      - Thu, 24 Sep 2020 03:58:25 GMT
+      - Tue, 24 Nov 2020 18:07:38 GMT
       request-id:
-      - 5036aeee-5e44-4986-b69a-9a33df10e0ff
+      - 15c71e34-d8a9-4e3e-bb7b-19893bc00e83
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -737,12 +717,10 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:25 GMT
       return-client-request-id:
       - 'false'
     method: GET
@@ -756,13 +734,13 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:25 GMT
+      - Tue, 24 Nov 2020 18:07:38 GMT
       etag:
-      - '0x8D8603E16445445'
+      - '0x8D890A3D400A527'
       last-modified:
-      - Thu, 24 Sep 2020 03:58:25 GMT
+      - Tue, 24 Nov 2020 18:07:38 GMT
       request-id:
-      - 550265c7-d28e-4082-9526-51d65047e1f8
+      - 1e4795a1-87b9-42f1-84b1-045736cf3985
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -788,30 +766,28 @@ interactions:
       Content-Type:
       - application/json; odata=minimalmetadata; charset=utf-8
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:26 GMT
       return-client-request-id:
       - 'false'
     method: POST
     uri: https://clibatch000002.westus.batch.azure.com/pools/azure-cli-test-iaas/evaluateautoscale?api-version=2020-03-01.11.0&timeout=30
   response:
     body:
-      string: "{\r\n  \"odata.metadata\":\"https://clibatch000002.westus.batch.azure.com/$metadata#Microsoft.Azure.Batch.Protocol.Entities.AutoScaleRun\",\"timestamp\":\"2020-09-24T03:58:27.331068Z\",\"results\":\"$TargetDedicatedNodes=0;$TargetLowPriorityNodes=3;$NodeDeallocationOption=requeue\"\r\n}"
+      string: "{\r\n  \"odata.metadata\":\"https://clibatch000002.westus.batch.azure.com/$metadata#Microsoft.Azure.Batch.Protocol.Entities.AutoScaleRun\",\"timestamp\":\"2020-11-24T18:07:40.4075293Z\",\"results\":\"$TargetDedicatedNodes=0;$TargetLowPriorityNodes=3;$NodeDeallocationOption=requeue\"\r\n}"
     headers:
       content-type:
       - application/json;odata=minimalmetadata
       dataserviceid:
-      - https://clibatchngzvby23hwklmnfn.westus.batch.azure.com/pools/azure-cli-test-iaas/evaluateautoscale
+      - https://clibatchjccxmyjro645cibx.westus.batch.azure.com/pools/azure-cli-test-iaas/evaluateautoscale
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:26 GMT
+      - Tue, 24 Nov 2020 18:07:39 GMT
       request-id:
-      - 0a65a81f-6761-4962-b379-5efe20b5ca1f
+      - db95ca0f-5f56-4db6-b47b-ee3b27e8979c
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -835,12 +811,10 @@ interactions:
       Content-Length:
       - '0'
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:27 GMT
       return-client-request-id:
       - 'false'
     method: POST
@@ -850,17 +824,17 @@ interactions:
       string: ''
     headers:
       dataserviceid:
-      - https://clibatchngzvby23hwklmnfn.westus.batch.azure.com/pools/azure-cli-test-iaas/disableautoscale
+      - https://clibatchjccxmyjro645cibx.westus.batch.azure.com/pools/azure-cli-test-iaas/disableautoscale
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:27 GMT
+      - Tue, 24 Nov 2020 18:07:40 GMT
       etag:
-      - '0x8D8603E16445445'
+      - '0x8D890A3D400A527'
       last-modified:
-      - Thu, 24 Sep 2020 03:58:25 GMT
+      - Tue, 24 Nov 2020 18:07:38 GMT
       request-id:
-      - 6daa62cb-3ee6-46a8-9c39-887a35472a4e
+      - abae621a-d528-450b-b329-e05932273acb
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -882,12 +856,10 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:28 GMT
       return-client-request-id:
       - 'false'
     method: GET
@@ -901,13 +873,13 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:29 GMT
+      - Tue, 24 Nov 2020 18:07:40 GMT
       etag:
-      - '0x8D8603E16445445'
+      - '0x8D890A3D400A527'
       last-modified:
-      - Thu, 24 Sep 2020 03:58:25 GMT
+      - Tue, 24 Nov 2020 18:07:38 GMT
       request-id:
-      - 0ca4b470-6ed8-4536-9a2f-823e99838201
+      - 48347d03-f6ed-4db9-99f3-1dcc2c157cf8
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -929,12 +901,10 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:29 GMT
       return-client-request-id:
       - 'false'
     method: GET
@@ -949,9 +919,9 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:30 GMT
+      - Tue, 24 Nov 2020 18:07:41 GMT
       request-id:
-      - 0a797d72-d7bd-4aa3-9e85-9b1c54060ecf
+      - 43d34a08-7ca8-42c6-8fbe-21d1bccb4df0
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -973,12 +943,10 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:31 GMT
       return-client-request-id:
       - 'false'
     method: GET
@@ -994,13 +962,13 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:31 GMT
+      - Tue, 24 Nov 2020 18:07:42 GMT
       etag:
-      - '0x8D8603E117B71F5'
+      - '0x8D890A3D07EE767'
       last-modified:
-      - Thu, 24 Sep 2020 03:58:17 GMT
+      - Tue, 24 Nov 2020 18:07:32 GMT
       request-id:
-      - b855008e-16df-4b19-8251-3d1a026809ce
+      - 46fae38b-a9e5-4779-aa3e-8348c2298588
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -1026,12 +994,10 @@ interactions:
       Content-Type:
       - application/json; odata=minimalmetadata; charset=utf-8
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:32 GMT
       return-client-request-id:
       - 'false'
     method: PATCH
@@ -1041,17 +1007,17 @@ interactions:
       string: ''
     headers:
       dataserviceid:
-      - https://clibatchngzvby23hwklmnfn.westus.batch.azure.com/pools/azure-cli-test-json
+      - https://clibatchjccxmyjro645cibx.westus.batch.azure.com/pools/azure-cli-test-json
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:32 GMT
+      - Tue, 24 Nov 2020 18:07:43 GMT
       etag:
-      - '0x8D8603E1B01D258'
+      - '0x8D890A3D7406052'
       last-modified:
-      - Thu, 24 Sep 2020 03:58:33 GMT
+      - Tue, 24 Nov 2020 18:07:43 GMT
       request-id:
-      - d46713bf-23a4-4f28-adc7-85b58cfdb35c
+      - a0c9f45c-0ee7-47df-8922-8135f1639ad4
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -1073,12 +1039,10 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:33 GMT
       return-client-request-id:
       - 'false'
     method: GET
@@ -1095,13 +1059,13 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:34 GMT
+      - Tue, 24 Nov 2020 18:07:44 GMT
       etag:
-      - '0x8D8603E1B01D258'
+      - '0x8D890A3D7406052'
       last-modified:
-      - Thu, 24 Sep 2020 03:58:33 GMT
+      - Tue, 24 Nov 2020 18:07:43 GMT
       request-id:
-      - a5d26109-e28d-45c0-b4c9-c4a8b8ed1367
+      - 41ac44b9-1f27-4640-b056-bf0385f1bbf7
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -1123,12 +1087,10 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:34 GMT
       return-client-request-id:
       - 'false'
     method: GET
@@ -1356,9 +1318,9 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:35 GMT
+      - Tue, 24 Nov 2020 18:07:44 GMT
       request-id:
-      - ea89713b-44e6-43ab-9f9c-acd3be9c9474
+      - 000e0f2d-9134-4f1e-8228-b96856ba228f
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -1382,12 +1344,10 @@ interactions:
       Content-Length:
       - '0'
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:35 GMT
       return-client-request-id:
       - 'false'
     method: DELETE
@@ -1399,9 +1359,9 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:36 GMT
+      - Tue, 24 Nov 2020 18:07:45 GMT
       request-id:
-      - 906b58b2-7771-47bc-8cd1-bac5d74113fd
+      - f9c8d8f6-2e58-4879-a1b4-a7274807863e
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -1423,12 +1383,10 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:36 GMT
       return-client-request-id:
       - 'false'
     method: GET
@@ -1442,13 +1400,13 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:37 GMT
+      - Tue, 24 Nov 2020 18:07:45 GMT
       etag:
-      - '0x8D8603E1D229451'
+      - '0x8D890A3D84B1EA6'
       last-modified:
-      - Thu, 24 Sep 2020 03:58:36 GMT
+      - Tue, 24 Nov 2020 18:07:45 GMT
       request-id:
-      - 6f09e342-2aad-4985-9316-4a314f9f4295
+      - c35eec1c-f712-445c-a593-beeb60ba7357
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -1475,12 +1433,10 @@ interactions:
       Content-Type:
       - application/json; odata=minimalmetadata; charset=utf-8
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:37 GMT
       return-client-request-id:
       - 'false'
     method: POST
@@ -1489,7 +1445,7 @@ interactions:
     body:
       string: "{\r\n  \"odata.metadata\":\"https://clibatch000002.westus.batch.azure.com/$metadata#Microsoft.Azure.Batch.Protocol.Entities.Container.errors/@Element\",\"code\":\"InvalidApplicationPackageReferences\",\"message\":{\r\n
         \   \"lang\":\"en-US\",\"value\":\"One or more of the specified application
-        package references are invalid.\\nRequestId:7a6f94b2-96c0-4acb-ace1-3e7a17656dd8\\nTime:2020-09-24T03:58:38.7997031Z\"\r\n
+        package references are invalid.\\nRequestId:2bd2740c-814b-4016-b061-c2162618557b\\nTime:2020-11-24T18:07:46.5239812Z\"\r\n
         \ },\"values\":[\r\n    {\r\n      \"key\":\"does-not-exist\",\"value\":\"The
         specified application package does not exist.\"\r\n    }\r\n  ]\r\n}"
     headers:
@@ -1500,9 +1456,9 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:38 GMT
+      - Tue, 24 Nov 2020 18:07:46 GMT
       request-id:
-      - 7a6f94b2-96c0-4acb-ace1-3e7a17656dd8
+      - 2bd2740c-814b-4016-b061-c2162618557b
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -1526,12 +1482,10 @@ interactions:
       Content-Type:
       - application/json; odata=minimalmetadata; charset=utf-8
       User-Agent:
-      - python/3.6.8 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+      - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-batch/9.0.0 Azure-SDK-For-Python
       accept-language:
       - en-US
-      ocp-date:
-      - Thu, 24 Sep 2020 03:58:38 GMT
       return-client-request-id:
       - 'false'
     method: PATCH
@@ -1540,7 +1494,7 @@ interactions:
     body:
       string: "{\r\n  \"odata.metadata\":\"https://clibatch000002.westus.batch.azure.com/$metadata#Microsoft.Azure.Batch.Protocol.Entities.Container.errors/@Element\",\"code\":\"InvalidApplicationPackageReferences\",\"message\":{\r\n
         \   \"lang\":\"en-US\",\"value\":\"One or more of the specified application
-        package references are invalid.\\nRequestId:fb1b74ea-6ab0-4995-bd85-f9f30c4ccfd0\\nTime:2020-09-24T03:58:39.8943516Z\"\r\n
+        package references are invalid.\\nRequestId:75b52155-b3e9-4641-b0bb-007d05244fb6\\nTime:2020-11-24T18:07:47.2625296Z\"\r\n
         \ },\"values\":[\r\n    {\r\n      \"key\":\"does-not-exist\",\"value\":\"The
         specified application package does not exist.\"\r\n    }\r\n  ]\r\n}"
     headers:
@@ -1551,9 +1505,9 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Thu, 24 Sep 2020 03:58:39 GMT
+      - Tue, 24 Nov 2020 18:07:46 GMT
       request-id:
-      - fb1b74ea-6ab0-4995-bd85-f9f30c4ccfd0
+      - 75b52155-b3e9-4641-b0bb-007d05244fb6
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
