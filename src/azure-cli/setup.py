@@ -65,7 +65,7 @@ DEPENDENCIES = [
     'azure-mgmt-applicationinsights~=0.1.1',
     'azure-mgmt-appconfiguration~=0.6.0',
     'azure-mgmt-authorization~=0.61.0',
-    'azure-mgmt-batch~=9.0.0',
+    'azure-mgmt-batch==14.0.0b1',
     'azure-mgmt-batchai~=2.0',
     'azure-mgmt-billing==1.0.0',
     'azure-mgmt-botservice~=0.2.0',
