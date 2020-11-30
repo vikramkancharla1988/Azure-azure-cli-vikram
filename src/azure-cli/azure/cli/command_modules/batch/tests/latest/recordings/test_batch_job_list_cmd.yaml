@@ -32,11 +32,11 @@ interactions:
       content-length:
       - '0'
       date:
-      - Tue, 24 Nov 2020 18:44:02 GMT
+      - Tue, 24 Nov 2020 19:48:40 GMT
       expires:
       - '-1'
       location:
-      - https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Batch/batchAccounts/clibatch000002/operationResults/ba5f1473-e5bc-4203-96df-49bdcc21078f?api-version=2020-05-01
+      - https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Batch/batchAccounts/clibatch000002/operationResults/60cabe8a-0aaf-4bcf-8f74-c80d47e48d07?api-version=2020-05-01
       pragma:
       - no-cache
       server:
@@ -46,7 +46,7 @@ interactions:
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
-      - '1198'
+      - '1199'
     status:
       code: 202
       message: Accepted
@@ -67,7 +67,7 @@ interactions:
       - python/3.8.3 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-batch/9.0.0 Azure-SDK-For-Python AZURECLI/2.15.1
     method: GET
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Batch/batchAccounts/clibatch000002/operationResults/ba5f1473-e5bc-4203-96df-49bdcc21078f?api-version=2020-05-01
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Batch/batchAccounts/clibatch000002/operationResults/60cabe8a-0aaf-4bcf-8f74-c80d47e48d07?api-version=2020-05-01
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Batch/batchAccounts/clibatch000002","name":"clibatch000002","type":"Microsoft.Batch/batchAccounts","location":"westus","properties":{"accountEndpoint":"clibatch000002.westus.batch.azure.com","provisioningState":"Succeeded","dedicatedCoreQuota":700,"dedicatedCoreQuotaPerVMFamily":[{"name":"standardAv2Family","coreQuota":100},{"name":"standardDv2Family","coreQuota":100},{"name":"standardDv3Family","coreQuota":100},{"name":"standardEv3Family","coreQuota":50},{"name":"standardDSv2Family","coreQuota":100},{"name":"standardDSv3Family","coreQuota":100},{"name":"standardESv3Family","coreQuota":50},{"name":"standardFFamily","coreQuota":50},{"name":"standardFSFamily","coreQuota":50},{"name":"standardA0_A7Family","coreQuota":0},{"name":"standardA8_A11Family","coreQuota":0},{"name":"standardDFamily","coreQuota":0},{"name":"standardGFamily","coreQuota":0},{"name":"basicAFamily","coreQuota":0},{"name":"standardNVFamily","coreQuota":0},{"name":"standardNVPromoFamily","coreQuota":0},{"name":"standardNCFamily","coreQuota":0},{"name":"standardNCPromoFamily","coreQuota":0},{"name":"standardHFamily","coreQuota":0},{"name":"standardHPromoFamily","coreQuota":0},{"name":"standardMSFamily","coreQuota":0},{"name":"standardDSFamily","coreQuota":0},{"name":"standardGSFamily","coreQuota":0},{"name":"standardLSFamily","coreQuota":0},{"name":"standardLSv2Family","coreQuota":0},{"name":"standardNCSv2Family","coreQuota":0},{"name":"standardNDSFamily","coreQuota":0},{"name":"standardNCSv3Family","coreQuota":0},{"name":"standardFSv2Family","coreQuota":0},{"name":"standardHBSFamily","coreQuota":0},{"name":"standardHCSFamily","coreQuota":0},{"name":"standardNVSv3Family","coreQuota":0},{"name":"standardHBrsv2Family","coreQuota":0},{"name":"standardDAv4Family","coreQuota":0},{"name":"standardDASv4Family","coreQuota":0},{"name":"standardEAv4Family","coreQuota":0},{"name":"standardEASv4Family","coreQuota":0},{"name":"standardDDv4Family","coreQuota":0},{"name":"standardDDSv4Family","coreQuota":0},{"name":"standardEDv4Family","coreQuota":0},{"name":"standardEDSv4Family","coreQuota":0},{"name":"standardMSv2Family","coreQuota":0},{"name":"standardEIv3Family","coreQuota":0},{"name":"standardNVSv4Family","coreQuota":0},{"name":"standardXEISv4Family","coreQuota":0}],"dedicatedCoreQuotaPerVMFamilyEnforced":false,"lowPriorityCoreQuota":500,"poolQuota":100,"activeJobAndJobScheduleQuota":300,"poolAllocationMode":"BatchService","publicNetworkAccess":"Enabled","encryption":{"keySource":"Microsoft.Batch"}},"identity":{"type":"None"}}'
@@ -79,13 +79,13 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Tue, 24 Nov 2020 18:44:18 GMT
+      - Tue, 24 Nov 2020 19:48:56 GMT
       etag:
-      - '"0x8D890A8F394F709"'
+      - '"0x8D890B1FAE6F8FC"'
       expires:
       - '-1'
       last-modified:
-      - Tue, 24 Nov 2020 18:44:18 GMT
+      - Tue, 24 Nov 2020 19:48:56 GMT
       pragma:
       - no-cache
       server:
@@ -125,7 +125,7 @@ interactions:
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Batch/batchAccounts/clibatch000002/listKeys?api-version=2020-05-01
   response:
     body:
-      string: '{"accountName":"clibatch000002","primary":"emmD/XPWIEu7MPpSgZpMwVI8AvVDc+oZ6jfZHdEmylp0elqjDX4PonFCvnIp4HN3WiKxsl91ywsNoLkt60KcLg==","secondary":"UShIwfJM6W2CE5N2pkw3PaKmkm1ReZQIFm7KRQ2rYjFSBtgB+m95M4a45okE6Bm39KM0OeJeGCIxbCiEoLYrFA=="}'
+      string: '{"accountName":"clibatch000002","primary":"zbHt216lcTq1Yo/J9eg+o45XqBnaKIWpVbmn0/lVmXrmaBcTq+Qw4aVVL6EC81tEmBBd5BqK+SUTBPcJ5JEeaw==","secondary":"eKIicmp1CwX1j4RX1+LdfznRem3yNvtGn1yH0NrQwXb322Nh23ko5EsbNd+8JYQl1RKSPLq9OeVv/huYE9KQzg=="}'
     headers:
       cache-control:
       - no-cache
@@ -134,7 +134,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Tue, 24 Nov 2020 18:44:19 GMT
+      - Tue, 24 Nov 2020 19:48:57 GMT
       expires:
       - '-1'
       pragma:
@@ -185,13 +185,13 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Tue, 24 Nov 2020 18:44:19 GMT
+      - Tue, 24 Nov 2020 19:48:57 GMT
       etag:
-      - '"0x8D890A8EC7B60FD"'
+      - '"0x8D890B1F3B7D2AF"'
       expires:
       - '-1'
       last-modified:
-      - Tue, 24 Nov 2020 18:44:06 GMT
+      - Tue, 24 Nov 2020 19:48:44 GMT
       pragma:
       - no-cache
       server:
@@ -250,7 +250,7 @@ interactions:
       accept-language:
       - en-US
       ocp-date:
-      - Tue, 24 Nov 2020 18:44:20 GMT
+      - Tue, 24 Nov 2020 19:48:58 GMT
       return-client-request-id:
       - 'false'
     method: POST
@@ -260,19 +260,19 @@ interactions:
       string: ''
     headers:
       dataserviceid:
-      - https://clibatch77ue7sjgqvdp5dvs.westus.batch.azure.com/jobschedules/xplatJobScheduleJobTests
+      - https://clibatchyx5o3rqajsicmguz.westus.batch.azure.com/jobschedules/xplatJobScheduleJobTests
       dataserviceversion:
       - '3.0'
       date:
-      - Tue, 24 Nov 2020 18:44:21 GMT
+      - Tue, 24 Nov 2020 19:48:58 GMT
       etag:
-      - '0x8D890A8F4D7CD87'
+      - '0x8D890B1FC0CC4B4'
       last-modified:
-      - Tue, 24 Nov 2020 18:44:20 GMT
+      - Tue, 24 Nov 2020 19:48:58 GMT
       location:
       - https://clibatch000002.westus.batch.azure.com/jobschedules/xplatJobScheduleJobTests
       request-id:
-      - 74762ca3-0daa-41f0-990d-3697418e760e
+      - 627d5edf-845b-41f2-9a27-3728378d3475
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -320,7 +320,7 @@ interactions:
       accept-language:
       - en-US
       ocp-date:
-      - Tue, 24 Nov 2020 18:44:21 GMT
+      - Tue, 24 Nov 2020 19:48:58 GMT
       return-client-request-id:
       - 'false'
     method: POST
@@ -330,19 +330,19 @@ interactions:
       string: ''
     headers:
       dataserviceid:
-      - https://clibatch77ue7sjgqvdp5dvs.westus.batch.azure.com/jobs/job-1
+      - https://clibatchyx5o3rqajsicmguz.westus.batch.azure.com/jobs/job-1
       dataserviceversion:
       - '3.0'
       date:
-      - Tue, 24 Nov 2020 18:44:20 GMT
+      - Tue, 24 Nov 2020 19:48:58 GMT
       etag:
-      - '0x8D890A8F526858F'
+      - '0x8D890B1FC561A92'
       last-modified:
-      - Tue, 24 Nov 2020 18:44:21 GMT
+      - Tue, 24 Nov 2020 19:48:59 GMT
       location:
       - https://clibatch000002.westus.batch.azure.com/jobs/job-1
       request-id:
-      - 59c1df5b-c547-4de3-95c2-d2cbc7c98551
+      - 658ef428-02ce-4e01-9e9f-70b85f70a3a3
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -369,7 +369,7 @@ interactions:
       accept-language:
       - en-US
       ocp-date:
-      - Tue, 24 Nov 2020 18:44:21 GMT
+      - Tue, 24 Nov 2020 19:48:59 GMT
       return-client-request-id:
       - 'false'
     method: GET
@@ -377,7 +377,7 @@ interactions:
   response:
     body:
       string: "{\r\n  \"odata.metadata\":\"https://clibatch000002.westus.batch.azure.com/$metadata#jobs\",\"value\":[\r\n
-        \   {\r\n      \"id\":\"xplatJobScheduleJobTests:job-1\",\"displayName\":\"jobSpecDisplayName\",\"url\":\"https://clibatch000002.westus.batch.azure.com/jobs/xplatJobScheduleJobTests:job-1\",\"eTag\":\"0x8D890A8F4E981B9\",\"lastModified\":\"2020-11-24T18:44:21.0774457Z\",\"creationTime\":\"2020-11-24T18:44:21.0134212Z\",\"state\":\"completed\",\"stateTransitionTime\":\"2020-11-24T18:44:21.1654254Z\",\"previousState\":\"active\",\"previousStateTransitionTime\":\"2020-11-24T18:44:21.0774457Z\",\"priority\":1,\"usesTaskDependencies\":false,\"constraints\":{\r\n
+        \   {\r\n      \"id\":\"xplatJobScheduleJobTests:job-1\",\"displayName\":\"jobSpecDisplayName\",\"url\":\"https://clibatch000002.westus.batch.azure.com/jobs/xplatJobScheduleJobTests:job-1\",\"eTag\":\"0x8D890B1FC22BD55\",\"lastModified\":\"2020-11-24T19:48:58.6671445Z\",\"creationTime\":\"2020-11-24T19:48:58.5741351Z\",\"state\":\"completed\",\"stateTransitionTime\":\"2020-11-24T19:48:58.7639909Z\",\"previousState\":\"active\",\"previousStateTransitionTime\":\"2020-11-24T19:48:58.6671445Z\",\"priority\":1,\"usesTaskDependencies\":false,\"constraints\":{\r\n
         \       \"maxWallClockTime\":\"P1D\",\"maxTaskRetryCount\":5\r\n      },\"jobManagerTask\":{\r\n
         \       \"id\":\"jobManager\",\"displayName\":\"jobManagerDisplay\",\"commandLine\":\"cmd
         /c dir /s\",\"resourceFiles\":[\r\n          {\r\n            \"httpUrl\":\"https://testacct.blob.core.windows.net/\",\"filePath\":\"filePath\"\r\n
@@ -414,7 +414,7 @@ interactions:
         \           }\r\n          }\r\n        }\r\n      },\"metadata\":[\r\n        {\r\n
         \         \"name\":\"specMeta1\",\"value\":\"specMetaValue1\"\r\n        },{\r\n
         \         \"name\":\"specMeta2\",\"value\":\"specMetaValue2\"\r\n        }\r\n
-        \     ],\"executionInfo\":{\r\n        \"startTime\":\"2020-11-24T18:44:21.0774457Z\",\"endTime\":\"2020-11-24T18:44:21.1654254Z\",\"poolId\":\"TestSpecPrefix_F0E1F573-C78B-4104-874E-819FCBF00F92\",\"schedulingError\":{\r\n
+        \     ],\"executionInfo\":{\r\n        \"startTime\":\"2020-11-24T19:48:58.6671445Z\",\"endTime\":\"2020-11-24T19:48:58.7639909Z\",\"poolId\":\"TestSpecPrefix_B20D59F1-956E-4CB4-B79F-44B8320E874C\",\"schedulingError\":{\r\n
         \         \"category\":\"UserError\",\"code\":\"InvalidCertificatesInAutoPool\",\"message\":\"One
         or more certificates specified for the pool are invalid\",\"details\":[\r\n
         \           {\r\n              \"name\":\"sha1-0123456789abcdef\",\"value\":\"The
@@ -427,9 +427,9 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Tue, 24 Nov 2020 18:44:21 GMT
+      - Tue, 24 Nov 2020 19:48:59 GMT
       request-id:
-      - 3d38f200-e66f-4329-a4a8-1b8cd6f2db49
+      - c92c2500-07f9-402e-aa30-82e2f02df663
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -456,7 +456,7 @@ interactions:
       accept-language:
       - en-US
       ocp-date:
-      - Tue, 24 Nov 2020 18:44:21 GMT
+      - Tue, 24 Nov 2020 19:48:59 GMT
       return-client-request-id:
       - 'false'
     method: GET
@@ -464,7 +464,7 @@ interactions:
   response:
     body:
       string: "{\r\n  \"odata.metadata\":\"https://clibatch000002.westus.batch.azure.com/$metadata#jobs\",\"value\":[\r\n
-        \   {\r\n      \"id\":\"xplatJob\",\"displayName\":\"displayName\",\"url\":\"https://clibatch000002.westus.batch.azure.com/jobs/xplatJob\",\"eTag\":\"0x8D890A8F526858F\",\"lastModified\":\"2020-11-24T18:44:21.4773135Z\",\"creationTime\":\"2020-11-24T18:44:21.4263037Z\",\"state\":\"active\",\"stateTransitionTime\":\"2020-11-24T18:44:21.4773135Z\",\"priority\":1,\"usesTaskDependencies\":false,\"constraints\":{\r\n
+        \   {\r\n      \"id\":\"xplatJob\",\"displayName\":\"displayName\",\"url\":\"https://clibatch000002.westus.batch.azure.com/jobs/xplatJob\",\"eTag\":\"0x8D890B1FC561A92\",\"lastModified\":\"2020-11-24T19:48:59.003765Z\",\"creationTime\":\"2020-11-24T19:48:58.9727566Z\",\"state\":\"active\",\"stateTransitionTime\":\"2020-11-24T19:48:59.003765Z\",\"priority\":1,\"usesTaskDependencies\":false,\"constraints\":{\r\n
         \       \"maxWallClockTime\":\"P1D\",\"maxTaskRetryCount\":5\r\n      },\"jobManagerTask\":{\r\n
         \       \"id\":\"jobManager\",\"displayName\":\"jobManagerDisplay\",\"commandLine\":\"cmd
         /c dir /s\",\"resourceFiles\":[\r\n          {\r\n            \"httpUrl\":\"https://testacct.blob.core.windows.net/\",\"filePath\":\"filePath\"\r\n
@@ -492,9 +492,9 @@ interactions:
         \     ],\"poolInfo\":{\r\n        \"poolId\":\"xplatTestPool\"\r\n      },\"metadata\":[\r\n
         \       {\r\n          \"name\":\"specMeta1\",\"value\":\"specMetaValue1\"\r\n
         \       },{\r\n          \"name\":\"specMeta2\",\"value\":\"specMetaValue2\"\r\n
-        \       }\r\n      ],\"executionInfo\":{\r\n        \"startTime\":\"2020-11-24T18:44:21.4773135Z\",\"poolId\":\"xplatTestPool\"\r\n
+        \       }\r\n      ],\"executionInfo\":{\r\n        \"startTime\":\"2020-11-24T19:48:59.003765Z\",\"poolId\":\"xplatTestPool\"\r\n
         \     },\"onAllTasksComplete\":\"noaction\",\"onTaskFailure\":\"noaction\"\r\n
-        \   },{\r\n      \"id\":\"xplatJobScheduleJobTests:job-1\",\"displayName\":\"jobSpecDisplayName\",\"url\":\"https://clibatch000002.westus.batch.azure.com/jobs/xplatJobScheduleJobTests:job-1\",\"eTag\":\"0x8D890A8F4E981B9\",\"lastModified\":\"2020-11-24T18:44:21.0774457Z\",\"creationTime\":\"2020-11-24T18:44:21.0134212Z\",\"state\":\"completed\",\"stateTransitionTime\":\"2020-11-24T18:44:21.1654254Z\",\"previousState\":\"active\",\"previousStateTransitionTime\":\"2020-11-24T18:44:21.0774457Z\",\"priority\":1,\"usesTaskDependencies\":false,\"constraints\":{\r\n
+        \   },{\r\n      \"id\":\"xplatJobScheduleJobTests:job-1\",\"displayName\":\"jobSpecDisplayName\",\"url\":\"https://clibatch000002.westus.batch.azure.com/jobs/xplatJobScheduleJobTests:job-1\",\"eTag\":\"0x8D890B1FC22BD55\",\"lastModified\":\"2020-11-24T19:48:58.6671445Z\",\"creationTime\":\"2020-11-24T19:48:58.5741351Z\",\"state\":\"completed\",\"stateTransitionTime\":\"2020-11-24T19:48:58.7639909Z\",\"previousState\":\"active\",\"previousStateTransitionTime\":\"2020-11-24T19:48:58.6671445Z\",\"priority\":1,\"usesTaskDependencies\":false,\"constraints\":{\r\n
         \       \"maxWallClockTime\":\"P1D\",\"maxTaskRetryCount\":5\r\n      },\"jobManagerTask\":{\r\n
         \       \"id\":\"jobManager\",\"displayName\":\"jobManagerDisplay\",\"commandLine\":\"cmd
         /c dir /s\",\"resourceFiles\":[\r\n          {\r\n            \"httpUrl\":\"https://testacct.blob.core.windows.net/\",\"filePath\":\"filePath\"\r\n
@@ -531,7 +531,7 @@ interactions:
         \           }\r\n          }\r\n        }\r\n      },\"metadata\":[\r\n        {\r\n
         \         \"name\":\"specMeta1\",\"value\":\"specMetaValue1\"\r\n        },{\r\n
         \         \"name\":\"specMeta2\",\"value\":\"specMetaValue2\"\r\n        }\r\n
-        \     ],\"executionInfo\":{\r\n        \"startTime\":\"2020-11-24T18:44:21.0774457Z\",\"endTime\":\"2020-11-24T18:44:21.1654254Z\",\"poolId\":\"TestSpecPrefix_F0E1F573-C78B-4104-874E-819FCBF00F92\",\"schedulingError\":{\r\n
+        \     ],\"executionInfo\":{\r\n        \"startTime\":\"2020-11-24T19:48:58.6671445Z\",\"endTime\":\"2020-11-24T19:48:58.7639909Z\",\"poolId\":\"TestSpecPrefix_B20D59F1-956E-4CB4-B79F-44B8320E874C\",\"schedulingError\":{\r\n
         \         \"category\":\"UserError\",\"code\":\"InvalidCertificatesInAutoPool\",\"message\":\"One
         or more certificates specified for the pool are invalid\",\"details\":[\r\n
         \           {\r\n              \"name\":\"sha1-0123456789abcdef\",\"value\":\"The
@@ -544,9 +544,9 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Tue, 24 Nov 2020 18:44:21 GMT
+      - Tue, 24 Nov 2020 19:48:59 GMT
       request-id:
-      - acf16de6-eb2c-4922-881e-9021c21073c7
+      - 237d17ab-18ff-4139-9c87-f51f5461a301
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -575,7 +575,7 @@ interactions:
       accept-language:
       - en-US
       ocp-date:
-      - Tue, 24 Nov 2020 18:44:22 GMT
+      - Tue, 24 Nov 2020 19:48:59 GMT
       return-client-request-id:
       - 'false'
     method: DELETE
@@ -587,9 +587,9 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Tue, 24 Nov 2020 18:44:22 GMT
+      - Tue, 24 Nov 2020 19:48:59 GMT
       request-id:
-      - ed25713c-1b57-46c9-bcbb-8cf1a2db9c10
+      - f5e99b39-0522-45b5-9320-f19b42d7e3c9
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:
@@ -618,7 +618,7 @@ interactions:
       accept-language:
       - en-US
       ocp-date:
-      - Tue, 24 Nov 2020 18:44:24 GMT
+      - Tue, 24 Nov 2020 19:49:02 GMT
       return-client-request-id:
       - 'false'
     method: DELETE
@@ -630,9 +630,9 @@ interactions:
       dataserviceversion:
       - '3.0'
       date:
-      - Tue, 24 Nov 2020 18:44:24 GMT
+      - Tue, 24 Nov 2020 19:49:01 GMT
       request-id:
-      - 297f74f5-98a1-4b12-ac5d-3ce956c25007
+      - 2162411b-a2d8-4ba1-93aa-ac6da7f4572a
       server:
       - Microsoft-HTTPAPI/2.0
       strict-transport-security:

@@ -324,7 +324,9 @@ class BatchDataPlaneScenarioTests(BatchScenarioMixin, ScenarioTest):
         self.batch_cmd('batch pool create --json-file "{json}"')
         self.batch_cmd('batch pool show --pool-id azure-cli-test-json').assert_with_checks([
             self.check('userAccounts[0].name', 'cliTestUser'),
-            self.check('startTask.userIdentity.userName', 'cliTestUser')])
+            self.check('startTask.userIdentity.userName', 'cliTestUser'),
+            self.check('taskSlotsPerNode', 3)
+        ])
 
         # test create pool from non-existant JSON file
         with self.assertRaises(SystemExit):
