@@ -3,13 +3,6 @@
 Release History
 ===============
 
-2.15.1
-++++++
-
-**Profile**
-
-* Hotfix: Fix #15961: az login: UnboundLocalError: local variable 'token_entry' referenced before assignment
-
 2.15.0
 ++++++
 
